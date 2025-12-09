@@ -1,0 +1,25 @@
+Package: galileantools
+Title: Tools for Galilean Transformations and Projectile Analysis
+Version: 0.1.0
+Authors@R: 
+    person("Ibrahima", "OURBANI DOUBLA MAMOUDOU", email = "ibrahimadoubla21@gmail.com", role = c("aut", "cre"))
+Description: Provides functions to apply Galilean transformations, simulate projectile motion 
+    from moving platforms, estimate platform velocity using observed trajectories,
+    and visualize results.
+License: MIT + file LICENSE
+URL: https://github.com/Ourbani237/galileantools
+BugReports: https://github.com/Ourbani237/galileantools/issues
+Encoding: UTF-8
+LazyData: false
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+VignetteBuilder: knitr
+Imports:
+    ggplot2,
+    stats
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    gganimate
+Config/testthat/edition: 3
